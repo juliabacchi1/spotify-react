@@ -28,7 +28,7 @@ const Header = () => {
         />
       </div>
       <div className="header__login">
-        <button className="subscribe">Inscreva-se</button>
+        <button className="subscribe">Inscrever-se</button>
         <button className="login">Entrar</button>
       </div>
     </nav>

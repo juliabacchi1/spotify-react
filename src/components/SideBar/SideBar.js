@@ -1,20 +1,26 @@
 import "./SideBar.css";
 import logoSpotify from "../../assets/icons/logo-spotify.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faHome, faSearch, faGlobe } from "@fortawesome/free-solid-svg-icons";
+import {
+  faHome,
+  faSearch,
+  faGlobe,
+  faBook,
+  faPlus,
+} from "@fortawesome/free-solid-svg-icons"; // Importe os ícones necessários
 
 const Sidebar = () => {
   return (
     <div className="sidebar">
       <nav className="sidebar__navigation">
         <div className="logo">
-          <a href="">
+          <a href="#">
             <img src={logoSpotify} alt="Logo" />
           </a>
         </div>
         <ul>
           <li>
-            <a href="">
+            <a href="#">
               <span>
                 <FontAwesomeIcon icon={faHome} />
               </span>
@@ -22,7 +28,7 @@ const Sidebar = () => {
             </a>
           </li>
           <li>
-            <a href="">
+            <a href="#">
               <span>
                 <FontAwesomeIcon icon={faSearch} />
               </span>
@@ -33,11 +39,17 @@ const Sidebar = () => {
       </nav>
       <div className="library">
         <div className="library__content">
-          <button className="library__button">
-            <span className="fa fas fa-book"></span>
+          <button className="library__button" type="button">
+            <span>
+              <FontAwesomeIcon icon={faBook} />
+            </span>
             <span>Sua biblioteca</span>
           </button>
-          <span className="fa fa-plus"></span>
+          <a href="#">
+            <span>
+              <FontAwesomeIcon icon={faPlus} />
+            </span>
+          </a>
         </div>
         <section className="section-playlist">
           <div className="section-playlist__content">
@@ -49,7 +61,7 @@ const Sidebar = () => {
           </div>
         </section>
         <div className="cookies">
-          <a href="">Cookies</a>
+          <a href="#">Cookies</a>
         </div>
         <div className="languages">
           <button className="languages__button">

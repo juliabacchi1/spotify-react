@@ -39,6 +39,7 @@
   .header__login {
     display: flex;
     align-items: center;
+    margin-left: auto;
   }
   
   .header__search {
@@ -63,6 +64,7 @@
     border: none;
     padding: 0px 100px 0 12px;
     color: #fff;
+    font-size: 14px;
     text-overflow: ellipsis;
     overflow:hidden;
     white-space: nowrap;
@@ -71,7 +73,7 @@
   
   .header__login .subscribe {
     color: #a7a7a7;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 700;
     background-color: transparent;
     margin-right: 32px;
@@ -79,7 +81,7 @@
   }
   
   .header__login .login {
-    width: 100px;
+    width: 110px;
     height: 48px;
     color: #000;
     font-size: 16px;

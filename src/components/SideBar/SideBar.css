@@ -14,7 +14,7 @@
 }
 
 .logo {
-  background: #121212;
+  background-color: #121212;
   display: flex;
   border-radius: 8px;
   padding: 16px 0 0 16px;
@@ -39,6 +39,8 @@
   text-decoration: none;
   font-weight: 600;
   font-size: 14px;
+  display: flex;
+  align-items: center;
 }
 
 .sidebar nav ul li a span {
@@ -63,13 +65,19 @@
   justify-content: space-between;
 }
 
+.library .library__content span:hover {
+  color: #fff;
+}
+
 .library .library__button {
   display: flex;
+  cursor: pointer;
+  align-items: center;
   margin-right: 10px;
   color: #b3b3b3;
   background-color: transparent;
-  border: 0px;
-  font-size: 14px;
+  border: 0;
+  font-size: 16px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
@@ -77,16 +85,18 @@
   padding: 20px 10px;
 }
 
-.library .library__button .fa {
-  font-size: 20px;
-  font-weight: 300;
-  color: #b3b3b3;
+.library .library__button span {
   margin-right: 10px;
-  padding-right: 8px;
 }
 
 .library .library__content .fa-plus {
+  font-size: 20px;
   margin: 24px 10px;
+  color: #b3b3b3;
+}
+
+.library .library__content .fa-plus:hover {
+  color: #fff;
 }
 
 .section-playlist {
@@ -119,16 +129,17 @@
 
 .section-playlist__content .subtitle {
   font-weight: 500;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .section-playlist__content .section-playlist__button {
   display: flex;
+  cursor: pointer;
   justify-content: center;
   background-color: #fff;
   color: #000;
   border-radius: 20px;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
   text-decoration: none;
   text-transform: none;
@@ -138,6 +149,10 @@
   width: 113px;
 }
 
+.section-playlist__content .section-playlist__button:hover {
+  background-color: #F0F0F0;
+}
+
 .sidebar .cookies {
   margin: 25px 20px;
 }
@@ -145,12 +160,13 @@
 .sidebar .cookies a {
   color: #b3b3b3;
   font-weight: 500;
-  font-size: 10px;
+  font-size: 12px;
   text-decoration: none;
 }
 
 .sidebar .cookies a:hover {
   text-decoration: underline;
+  color: #fff;
 }
 
 .languages .languages__button {
@@ -164,6 +180,10 @@
   margin: 8px;
   padding: 8px;
   border-radius: 20px;
+}
+
+.languages .languages__button:hover {
+  border: 1px solid #fff;
 }
 
 .languages .languages__button span {
