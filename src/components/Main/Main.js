@@ -27,111 +27,111 @@ const Main = () => {
         <div className="offer__scroll-container">
           <div className="offer__list">
             <section className="offer__list-item">
-              <a href="#" className="cards">
+              <button type="button" className="cards">
                 <div className="cards card1">
-                  <img src={Playlist1} alt="" />
+                  <img src={Playlist1} alt="Playlist1" />
                   <span>Boas festas</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card2">
-                  <img src={Playlist2} alt="" />
+                  <img src={Playlist2} alt="Playlist2" />
                   <span>Feitos para você</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card3">
-                  <img src={Playlist3} alt="" />
+                  <img src={Playlist3} alt="Playlist3" />
                   <span>Lançamentos</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card4">
-                  <img src={Playlist4} alt="" />
+                  <img src={Playlist4} alt="Playlist4" />
                   <span>Creators</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card5">
-                  <img src={Playlist5} alt="" />
+                  <img src={Playlist5} alt="Playlist5" />
                   <span>Para treinar</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card6">
-                  <img src={Playlist6} alt="" />
+                  <img src={Playlist6} alt="Playlist6" />
                   <span>Podcasts</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card7">
-                  <img src={Playlist7} alt="" />
+                  <img src={Playlist7} alt="Playlist7" />
                   <span>Sertanejo</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card8">
-                  <img src={Playlist8} alt="" />
+                  <img src={Playlist8} alt="Playlist8" />
                   <span>Samba e pagode</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card9">
-                  <img src={Playlist9} alt="" />
+                  <img src={Playlist9} alt="Playlist9" />
                   <span>Funk</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card10">
-                  <img src={Playlist10} alt="" />
+                  <img src={Playlist10} alt="Playlist10" />
                   <span>MPB</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card11">
-                  <img src={Playlist11} alt="" />
+                  <img src={Playlist11} alt="Playlist11" />
                   <span>Rock</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card12">
-                  <img src={Playlist12} alt="" />
+                  <img src={Playlist12} alt="Playlist12" />
                   <span>Hip Hop</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card13">
-                  <img src={Playlist13} alt="" />
+                  <img src={Playlist13} alt="Playlist13" />
                   <span>Indie</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card14">
-                  <img src={Playlist14} alt="" />
+                  <img src={Playlist14} alt="Playlist14" />
                   <span>Relax</span>
                 </div>
-              </a>
-              <a href="#" className="cards">
+              </button>
+              <button type="button" className="cards">
                 <div className="cards card15">
-                  <img src={Playlist15} alt="" />
+                  <img src={Playlist15} alt="Playlist15" />
                   <span>Música Latina</span>
                 </div>
-              </a>
+              </button>
             </section>
           </div>
         </div>
       </div>
       <div id="result-artist" className="hidden">
         <div className="grid-container">
-          <div className="artist-card" id="">
+          <div className="artist-card">
             <div className="card-img">
-              <img id="artist-img" className="artist-img" />
+              <img id="artist-img" className="artist-img" alt="Artist Img" />
               <div className="play">
                 <span className="fa fa-solid fa-play"></span>
               </div>
             </div>
             <div className="card-text">
-              <a title="Foo Fighters" className="vst" href="#">
+              <a title="Foo Fighters" className="vst" href="/">
                 <span className="artist-name" id="artist-name"></span>
                 <span className="artist-categorie">Artista</span>
               </a>
