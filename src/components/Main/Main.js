@@ -27,7 +27,7 @@ const Main = () => {
         <div className="offer__scroll-container">
           <div className="offer__list">
             <section className="offer__list-item">
-              <a href="" className="cards">
+              <a href="#" className="cards">
                 <div className="cards card1">
                   <img src={Playlist1} alt="" />
                   <span>Boas festas</span>
@@ -131,7 +131,7 @@ const Main = () => {
               </div>
             </div>
             <div className="card-text">
-              <a title="Foo Fighters" className="vst" href="">
+              <a title="Foo Fighters" className="vst" href="#">
                 <span className="artist-name" id="artist-name"></span>
                 <span className="artist-categorie">Artista</span>
               </a>
