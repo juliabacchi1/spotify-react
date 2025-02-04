@@ -56,9 +56,10 @@
   height: 200px;
   overflow: hidden;
   border-radius: 8px;
-  all: unset;
   display: block;
   cursor: pointer;
+  background: none;
+  border: none;
 }
 
 .cards span {
